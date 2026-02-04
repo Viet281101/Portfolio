@@ -1,0 +1,38 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.about-portrait {
+  min-height: 320px;
+  border-radius: 20px;
+  background: linear-gradient(140deg, rgba(255, 182, 93, 0.35), rgba(255, 107, 129, 0.15)),
+    url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80')
+      center/cover;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.about-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-card p {
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.about-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+@media (max-width: 1024px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
