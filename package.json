@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@angular/animations": "^17.0.0",
@@ -25,6 +26,7 @@
     "@angular-devkit/build-angular": "^17.0.0",
     "@angular/cli": "^17.0.0",
     "@angular/compiler-cli": "^17.0.0",
+    "prettier": "^3.2.5",
     "typescript": "~5.2.2"
   }
 }

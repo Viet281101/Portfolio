@@ -6,6 +6,6 @@ import { GsapRevealDirective } from '../../shared/directives/gsap-reveal.directi
   standalone: true,
   imports: [GsapRevealDirective],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
 })
 export class HomeComponent {}

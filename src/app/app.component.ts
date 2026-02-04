@@ -10,6 +10,6 @@ import { ContactComponent } from './sections/contact/contact.component';
   standalone: true,
   imports: [HomeComponent, AboutComponent, ProjectsComponent, SkillsComponent, ContactComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {}

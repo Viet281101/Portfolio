@@ -1,24 +1,18 @@
-import {
-  AfterViewInit,
-  Directive,
-  ElementRef,
-  Input,
-  OnDestroy,
-} from "@angular/core";
-import { gsap } from "gsap";
+import { AfterViewInit, Directive, ElementRef, Input, OnDestroy } from '@angular/core';
+import { gsap } from 'gsap';
 
-export type RevealPreset = "fade-up" | "fade-in" | "scale";
+export type RevealPreset = 'fade-up' | 'fade-in' | 'scale';
 
 @Directive({
-  selector: "[gsapReveal]",
+  selector: '[gsapReveal]',
   standalone: true,
 })
 export class GsapRevealDirective implements AfterViewInit, OnDestroy {
-  private preset: RevealPreset = "fade-up";
+  private preset: RevealPreset = 'fade-up';
 
   @Input()
-  set gsapReveal(value: RevealPreset | "") {
-    this.preset = value || "fade-up";
+  set gsapReveal(value: RevealPreset | '') {
+    this.preset = value || 'fade-up';
   }
 
   get gsapReveal(): RevealPreset {
@@ -36,19 +30,19 @@ export class GsapRevealDirective implements AfterViewInit, OnDestroy {
     const element = this.el.nativeElement;
     const base = {
       opacity: 0,
-      y: this.preset === "fade-up" ? this.y : 0,
+      y: this.preset === 'fade-up' ? this.y : 0,
       scale: 1,
     } as const;
 
-    if (this.preset === "scale") {
+    if (this.preset === 'scale') {
       gsap.set(element, { ...base, scale: 0.96 });
     } else {
       gsap.set(element, base);
     }
 
     this.observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
+      entries => {
+        entries.forEach(entry => {
           if (entry.isIntersecting) {
             gsap.to(element, {
               opacity: 1,
@@ -56,13 +50,13 @@ export class GsapRevealDirective implements AfterViewInit, OnDestroy {
               scale: 1,
               duration: this.duration,
               delay: this.delay,
-              ease: "power3.out",
+              ease: 'power3.out',
             });
             this.observer?.disconnect();
           }
         });
       },
-      { threshold: 0.2 },
+      { threshold: 0.2 }
     );
 
     this.observer.observe(element);

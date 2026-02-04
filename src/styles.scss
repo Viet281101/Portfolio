@@ -27,9 +27,9 @@ html {
 body {
   font-family: var(--font-body);
   color: var(--text);
-  background: radial-gradient(circle at top left, rgba(255, 182, 93, 0.18), transparent 45%),
-    radial-gradient(circle at 80% 20%, rgba(255, 107, 129, 0.25), transparent 40%),
-    var(--bg);
+  background:
+    radial-gradient(circle at top left, rgba(255, 182, 93, 0.18), transparent 45%),
+    radial-gradient(circle at 80% 20%, rgba(255, 107, 129, 0.25), transparent 40%), var(--bg);
   min-height: 100vh;
 }
 
