@@ -7,9 +7,9 @@
   --surface-2: #1f1d2d;
   --text: #f3f2ff;
   --text-muted: #b9b6d3;
-  --accent: #ffb65d;
-  --accent-2: #ff6b81;
-  --gradient: linear-gradient(135deg, #ffb65d 0%, #ff6b81 55%, #ffb65d 100%);
+  --accent: #4dd7ff;
+  --accent-2: #1b6bff;
+  --gradient: linear-gradient(135deg, #4dd7ff 0%, #1b6bff 55%, #4dd7ff 100%);
   --font-display: 'Syne', sans-serif;
   --font-body: 'Space Grotesk', sans-serif;
 }
@@ -28,8 +28,8 @@ body {
   font-family: var(--font-body);
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(255, 182, 93, 0.18), transparent 45%),
-    radial-gradient(circle at 80% 20%, rgba(255, 107, 129, 0.25), transparent 40%), var(--bg);
+    radial-gradient(circle at top left, rgba(77, 215, 255, 0.18), transparent 45%),
+    radial-gradient(circle at 80% 20%, rgba(27, 107, 255, 0.25), transparent 40%), var(--bg);
   min-height: 100vh;
 }
 
@@ -92,7 +92,7 @@ section {
   background: var(--gradient);
   color: #1a1a1a;
   font-weight: 600;
-  box-shadow: 0 12px 24px rgba(255, 182, 93, 0.25);
+  box-shadow: 0 12px 24px rgba(77, 215, 255, 0.25);
 }
 
 .tag {

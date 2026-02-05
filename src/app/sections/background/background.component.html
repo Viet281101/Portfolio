@@ -1,0 +1,52 @@
+<section class="background" id="background">
+  <div class="section-header">
+    <div>
+      <h2 class="section-title" gsapReveal>Background</h2>
+      <p class="section-subtitle" gsapReveal [delay]="0.1">
+        Experience highlights and a structured overview of university coursework.
+      </p>
+    </div>
+    <span class="tag" gsapReveal="fade-in" [delay]="0.2">Updated 2025</span>
+  </div>
+
+  <div class="background-grid">
+    <div class="card" gsapReveal>
+      <h3 class="block-title">Experience</h3>
+      <div class="experience-list">
+        <article class="experience" *ngFor="let item of experience" gsapReveal [delay]="0.05">
+          <div class="experience-header">
+            <div>
+              <h4>{{ item.company }}</h4>
+              <span class="meta">{{ item.location }}</span>
+            </div>
+            <span class="period">{{ item.period }}</span>
+          </div>
+          <p>{{ item.summary }}</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="card education" gsapReveal="scale" [delay]="0.1">
+      <h3 class="block-title">Education</h3>
+      <div class="education-level" *ngFor="let level of education">
+        <h4>{{ level.title }}</h4>
+        <details class="semester" *ngFor="let semester of level.semesters">
+          <summary class="semester-title">
+            <span>{{ semester.title }}</span>
+            <span class="semester-count">{{ semester.count }} courses</span>
+          </summary>
+          <div class="course-grid">
+            <div class="course" *ngFor="let course of semester.courses">
+              <div class="course-title">{{ course.title }}</div>
+              <div class="course-meta" *ngIf="course.duration || course.credits">
+                <span *ngIf="course.duration">{{ course.duration }}</span>
+                <span *ngIf="course.credits">{{ course.credits }} credits</span>
+              </div>
+              <p *ngIf="course.description">{{ course.description }}</p>
+            </div>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>

@@ -3,7 +3,7 @@
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
   gap: 2rem;
   padding: 2.5rem;
-  background: linear-gradient(140deg, rgba(255, 182, 93, 0.15), rgba(255, 255, 255, 0.02));
+  background: linear-gradient(140deg, rgba(77, 215, 255, 0.15), rgba(255, 255, 255, 0.02));
 }
 
 .contact-copy h2 {
@@ -57,8 +57,8 @@
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: rgba(255, 182, 93, 0.6);
-  box-shadow: 0 0 0 3px rgba(255, 182, 93, 0.2);
+  border-color: rgba(77, 215, 255, 0.6);
+  box-shadow: 0 0 0 3px rgba(77, 215, 255, 0.2);
 }
 
 @media (max-width: 900px) {
