@@ -1,0 +1,95 @@
+<section class="journey" id="journey">
+  <div class="section-header">
+    <div>
+      <h2 class="section-title" gsapReveal>Journey</h2>
+      <p class="section-subtitle" gsapReveal [delay]="0.1">
+        A timeline of learning and work, with coursework available on demand.
+      </p>
+    </div>
+    <span class="tag" gsapReveal="fade-in" [delay]="0.2">Updated 2025</span>
+  </div>
+
+  <div class="journey-grid" [class.is-education-open]="isEducationVisible">
+    <div class="card timeline-panel" gsapReveal>
+      <div class="timeline-header">
+        <h3 class="block-title">Timeline</h3>
+      </div>
+      <div class="timeline">
+        <article
+          class="timeline-item"
+          *ngFor="let item of experience"
+          gsapReveal
+          [delay]="0.05"
+          [class.is-education]="item.type === 'education'"
+          (click)="handleEducationClick(item.type)"
+          (keydown)="handleEducationKeydown($event, item.type)"
+          [attr.role]="item.type === 'education' ? 'button' : null"
+          [attr.tabindex]="item.type === 'education' ? 0 : null"
+        >
+          <div class="timeline-meta">
+            <span class="timeline-date">{{ item.period }}</span>
+            <span
+              class="timeline-tag"
+              [class.is-education]="item.type === 'education'"
+              [class.is-work]="item.type === 'work'"
+            >
+              {{ item.type === 'education' ? 'Education' : 'Work' }}
+            </span>
+          </div>
+          <div class="timeline-card">
+            <div class="experience-header">
+              <div>
+                <h4>{{ item.company }}</h4>
+                <span class="meta" *ngIf="item.location">{{ item.location }}</span>
+              </div>
+            </div>
+            <p *ngIf="item.summary">{{ item.summary }}</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div
+      *ngIf="isEducationVisible"
+      #educationDrawer
+      class="card education-drawer"
+      [class.is-open]="isEducationOpen"
+      [class.is-closing]="isEducationClosing"
+      gsapReveal="scale"
+      [delay]="0.1"
+    >
+      <div class="drawer-header">
+        <div>
+          <h3 class="block-title">Education</h3>
+          <p class="drawer-subtitle">
+            Click the Education items on the timeline to open this panel.
+          </p>
+        </div>
+        <button class="drawer-close" type="button" (click)="closeEducation()">
+          Close
+        </button>
+      </div>
+      <div class="drawer-body">
+        <div class="education-level" *ngFor="let level of education">
+          <h4>{{ level.title }}</h4>
+          <details class="semester" *ngFor="let semester of level.semesters">
+            <summary class="semester-title">
+              <span>{{ semester.title }}</span>
+              <span class="semester-count">{{ semester.count }} courses</span>
+            </summary>
+            <div class="course-grid">
+              <div class="course" *ngFor="let course of semester.courses">
+                <div class="course-title">{{ course.title }}</div>
+                <div class="course-meta" *ngIf="course.duration || course.credits">
+                  <span *ngIf="course.duration">{{ course.duration }}</span>
+                  <span *ngIf="course.credits">{{ course.credits }} credits</span>
+                </div>
+                <p *ngIf="course.description">{{ course.description }}</p>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

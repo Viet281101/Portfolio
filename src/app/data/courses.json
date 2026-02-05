@@ -1,306 +1,306 @@
 {
-	"en" : {
-		"title": "Courses",
-		"desc": "My courses in university",
-		"tabBtnTitle": "Show tab {0}",
-		"closeBtnTitle": "Close Tab",
-		"closeBtnAlt": "Close",
-		"L1" : {
-			"h2" : "Licence 1",
-			"S1" : {
-				"h3": "Semester 1",
-				"courses": {
-					"1": "Programming Methodology",
-					"2": "Functional Program",
-					"3": "Computer Architecture",
-					"4": "Introduction Game Engine",
-					"5": "Fundamental Computer Science",
-					"6": "Online Identity Management",
-					"7": "Machine Practice",
-					"8": "NULL"
-				}
-			},
-			"S2" : {
-				"h3": "Semester 2",
-				"courses": {
-					"1": "Programming Requirements",
-					"2": "Programming Logic",
-					"3": "Declarative Programming & Database",
-					"4": "Programming Game Engine",
-					"5": "Creation & Management Resources",
-					"6": "Collaborative IT Tools",
-					"7": "English Robotic",
-					"8": "EC Free"
-				}
-			}
-		},
-		"L2" : {
-			"h2" : "Licence 2",
-			"S3" : {
-				"h3": "Semester 3",
-				"courses": {
-					"1": "Algorithms & Data Structures 1",
-					"2": "Advanced Programming",
-					"3": "User Interface Programming",
-					"4": "Algorithms for Graphic Programming",
-					"5": "Introduction to Artificial Intelligence",
-					"6": "Professional Project Preparation",
-					"7": "English - Artificial Intelligence",
-					"8": "NULL"
-				}
-			},
-			"S4" : {
-				"h3": "Semester 4",
-				"courses": {
-					"1": "Algorithms & Data Structures 2",
-					"2": "Object-Oriented Programming",
-					"3": "Systems & Networks",
-					"4": "Concurrent Programming & Networks",
-					"5": "Web and Database Development",
-					"6": "Image Synthesis, Animation & Sound",
-					"7": "History of Computing",
-					"8": "Oral Knowledge Presentation"
-				}
-			}
-		},
-		"L3" : {
-			"h2" : "Licence 3",
-			"S5" : {
-				"h3": "Semester 5",
-				"courses": {
-					"1": "Advanced Algorithms",
-					"2": "Interpretation & Compilation",
-					"3": "Introduction to Security",
-					"4": "Game Engines",
-					"5": "Mobile Development",
-					"6": "Tutored Project: State of the Art",
-					"7": "Master's Objective",
-					"8": "English - Artificial Intelligence"
-				}
-			},
-			"S6" : {
-				"h3": "Semester 6",
-				"courses": {
-					"1": "Artificial Intelligence & Learning",
-					"2": "Language Engineering",
-					"3": "Free Software Development",
-					"4": "Graphics Card Programming",
-					"5": "Artificial Intelligence for Games",
-					"6": "Tutored Project: Implementation",
-					"7": "Law, Ethics, Computer Science",
-					"8": "English - Artificial Intelligence"
-				}
-			}
-		},
-		"M1" : {
-			"h2" : "Master 1",
-			"S1" : {
-				"h3": "Semester 1",
-				"courses": {
-					"1": "Not yet",
-					"2": "Not yet",
-					"3": "Not yet",
-					"4": "Not yet",
-					"5": "Not yet",
-					"6": "Not yet",
-					"7": "Not yet",
-					"8": "Not yet"
-				}
-			},
-			"S2" : {
-				"h3": "Semester 2",
-				"courses": {
-					"1": "Not yet",
-					"2": "Not yet",
-					"3": "Not yet",
-					"4": "Not yet",
-					"5": "Not yet",
-					"6": "Not yet",
-					"7": "Not yet",
-					"8": "Not yet"
-				}
-			}
-		},
-		"M2" : {
-			"h2" : "Master 2",
-			"S1" : {
-				"h3": "Semester 3",
-				"courses": {
-					"1": "Not yet",
-					"2": "Not yet",
-					"3": "Not yet",
-					"4": "Not yet",
-					"5": "Not yet",
-					"6": "Not yet",
-					"7": "Not yet",
-					"8": "Not yet"
-				}
-			},
-			"S2" : {
-				"h3": "Semester 4",
-				"courses": {
-					"1": "Not yet",
-					"2": "Not yet",
-					"3": "Not yet",
-					"4": "Not yet",
-					"5": "Not yet",
-					"6": "Not yet",
-					"7": "Not yet",
-					"8": "Not yet"
-				}
-			}
-		}
-	},
-	"fr" : {
-		"title": "Cours",
-		"desc": "Mes cours à l'université",
-		"tabBtnTitle": "Afficher les onglets {0}",
-		"closeBtnTitle": "Fermer l'onglet",
-		"closeBtnAlt": "Fermer",
-		"L1" : {
-			"h2" : "Licence 1",
-			"S1" : {
-				"h3": "Semestre 1",
-				"courses": {
-					"1": "Méthodologie de la Programmation",
-					"2": "Programmation Fonctionnelle",
-					"3": "Architecture des Ordinateurs",
-					"4": "Introduction aux Moteurs de Jeux",
-					"5": "Informatique Fondamentale",
-					"6": "Gestion d'Identité en Ligne",
-					"7": "Pratique des Machines",
-					"8": "VIDE"
-				}
-			},
-			"S2" : {
-				"h3": "Semestre 2",
-				"courses": {
-					"1": "Programmation Impérative",
-					"2": "Programmation Logique",
-					"3": "Programmation Declarative & Base de Données",
-					"4": "Programmation dans les Moteurs de Jeux",
-					"5": "Création et Gestion de Ressources",
-					"6": "Outils Informatiques Collaboratifs",
-					"7": "Anglais Robotique",
-					"8": "EC Libre"
-				}
-			}
-		},
-		"L2" : {
-			"h2" : "Licence 2",
-			"S3" : {
-				"h3": "Semestre 3",
-				"courses": {
-					"1": "Algorithmique & Structures de Données 1",
-					"2": "Programmation Avancée",
-					"3": "Programmation Interfaces",
-					"4": "Algorithmes pour la Programmation Graphique",
-					"5": "Introduction à l'Intelligence Artificielle",
-					"6": "Préparation au Projet Professionnel",
-					"7": "Anglais - Intelligence Artificielle",
-					"8": "VIDE"
-				}
-			},
-			"S4" : {
-				"h3": "Semestre 4",
-				"courses": {
-					"1": "Algorithmique & Structures de Données 2",
-					"2": "Programmation Orientée Objet",
-					"3": "Systèmes & Réseaux",
-					"4": "Programmation concurrent & Réseaux",
-					"5": "Développement Web & Base de Données",
-					"6": "Synthèse d'Images, Animation & Sons",
-					"7": "Histoire de l'Informatique",
-					"8": "Restitution Orale de Connaissances"
-				}
-			}
-		},
-		"L3" : {
-			"h2" : "Licence 3",
-			"S5" : {
-				"h3": "Semestre 5",
-				"courses": {
-					"1": "Algorithmique Avancée",
-					"2": "Interprétation & Compilation",
-					"3": "Introduction à la Sécurité",
-					"4": "Moteurs de Jeu",
-					"5": "Développement Mobile",
-					"6": "Projet Tuteuré : état de l'Art",
-					"7": "Objectif Master",
-					"8": "Anglais - Intelligence Artificelle"
-				}
-			},
-			"S6" : {
-				"h3": "Semestre 6",
-				"courses": {
-					"1": "Intelligence Artificielle & Apprentissage",
-					"2": "Ingénierie des Langues",
-					"3": "Développement de Logiciels Libres",
-					"4": "Programmation de Cartes Graphiques",
-					"5": "Intelligence Artificielle pour les Jeux",
-					"6": "Projet Tuteuré : Implémentation",
-					"7": "Droit, éthique, informatique",
-					"8": "Anglais - Intelligence Artificelle"
-				}
-			}
-		},
-		"M1" : {
-			"h2" : "Master 1",
-			"S1" : {
-				"h3": "Semestre 1",
-				"courses": {
-					"1": "Pas encore",
-					"2": "Pas encore",
-					"3": "Pas encore",
-					"4": "Pas encore",
-					"5": "Pas encore",
-					"6": "Pas encore",
-					"7": "Pas encore",
-					"8": "Pas encore"
-				}
-			},
-			"S2" : {
-				"h3": "Semestre 2",
-				"courses": {
-					"1": "Pas encore",
-					"2": "Pas encore",
-					"3": "Pas encore",
-					"4": "Pas encore",
-					"5": "Pas encore",
-					"6": "Pas encore",
-					"7": "Pas encore",
-					"8": "Pas encore"
-				}
-			}
-		},
-		"M2" : {
-			"h2" : "Master 2",
-			"S1" : {
-				"h3": "Semestre 3",
-				"courses": {
-					"1": "Pas encore",
-					"2": "Pas encore",
-					"3": "Pas encore",
-					"4": "Pas encore",
-					"5": "Pas encore",
-					"6": "Pas encore",
-					"7": "Pas encore",
-					"8": "Pas encore"
-				}
-			},
-			"S2" : {
-				"h3": "Semestre 4",
-				"courses": {
-					"1": "Pas encore",
-					"2": "Pas encore",
-					"3": "Pas encore",
-					"4": "Pas encore",
-					"5": "Pas encore",
-					"6": "Pas encore",
-					"7": "Pas encore",
-					"8": "Pas encore"
-				}
-			}
-		}
-	}
+  "en": {
+    "title": "Courses",
+    "desc": "My courses in university",
+    "tabBtnTitle": "Show tab {0}",
+    "closeBtnTitle": "Close Tab",
+    "closeBtnAlt": "Close",
+    "L1": {
+      "h2": "Licence 1",
+      "S1": {
+        "h3": "Semester 1",
+        "courses": {
+          "1": "Programming Methodology",
+          "2": "Functional Program",
+          "3": "Computer Architecture",
+          "4": "Introduction Game Engine",
+          "5": "Fundamental Computer Science",
+          "6": "Online Identity Management",
+          "7": "Machine Practice",
+          "8": "NULL"
+        }
+      },
+      "S2": {
+        "h3": "Semester 2",
+        "courses": {
+          "1": "Programming Requirements",
+          "2": "Programming Logic",
+          "3": "Declarative Programming & Database",
+          "4": "Programming Game Engine",
+          "5": "Creation & Management Resources",
+          "6": "Collaborative IT Tools",
+          "7": "English Robotic",
+          "8": "EC Free"
+        }
+      }
+    },
+    "L2": {
+      "h2": "Licence 2",
+      "S3": {
+        "h3": "Semester 3",
+        "courses": {
+          "1": "Algorithms & Data Structures 1",
+          "2": "Advanced Programming",
+          "3": "User Interface Programming",
+          "4": "Algorithms for Graphic Programming",
+          "5": "Introduction to Artificial Intelligence",
+          "6": "Professional Project Preparation",
+          "7": "English - Artificial Intelligence",
+          "8": "NULL"
+        }
+      },
+      "S4": {
+        "h3": "Semester 4",
+        "courses": {
+          "1": "Algorithms & Data Structures 2",
+          "2": "Object-Oriented Programming",
+          "3": "Systems & Networks",
+          "4": "Concurrent Programming & Networks",
+          "5": "Web and Database Development",
+          "6": "Image Synthesis, Animation & Sound",
+          "7": "History of Computing",
+          "8": "Oral Knowledge Presentation"
+        }
+      }
+    },
+    "L3": {
+      "h2": "Licence 3",
+      "S5": {
+        "h3": "Semester 5",
+        "courses": {
+          "1": "Advanced Algorithms",
+          "2": "Interpretation & Compilation",
+          "3": "Introduction to Security",
+          "4": "Game Engines",
+          "5": "Mobile Development",
+          "6": "Tutored Project: State of the Art",
+          "7": "Master's Objective",
+          "8": "English - Artificial Intelligence"
+        }
+      },
+      "S6": {
+        "h3": "Semester 6",
+        "courses": {
+          "1": "Artificial Intelligence & Learning",
+          "2": "Language Engineering",
+          "3": "Free Software Development",
+          "4": "Graphics Card Programming",
+          "5": "Artificial Intelligence for Games",
+          "6": "Tutored Project: Implementation",
+          "7": "Law, Ethics, Computer Science",
+          "8": "English - Artificial Intelligence"
+        }
+      }
+    },
+    "M1": {
+      "h2": "Master 1",
+      "S1": {
+        "h3": "Semester 1",
+        "courses": {
+          "1": "Not yet",
+          "2": "Not yet",
+          "3": "Not yet",
+          "4": "Not yet",
+          "5": "Not yet",
+          "6": "Not yet",
+          "7": "Not yet",
+          "8": "Not yet"
+        }
+      },
+      "S2": {
+        "h3": "Semester 2",
+        "courses": {
+          "1": "Not yet",
+          "2": "Not yet",
+          "3": "Not yet",
+          "4": "Not yet",
+          "5": "Not yet",
+          "6": "Not yet",
+          "7": "Not yet",
+          "8": "Not yet"
+        }
+      }
+    },
+    "M2": {
+      "h2": "Master 2",
+      "S1": {
+        "h3": "Semester 3",
+        "courses": {
+          "1": "Not yet",
+          "2": "Not yet",
+          "3": "Not yet",
+          "4": "Not yet",
+          "5": "Not yet",
+          "6": "Not yet",
+          "7": "Not yet",
+          "8": "Not yet"
+        }
+      },
+      "S2": {
+        "h3": "Semester 4",
+        "courses": {
+          "1": "Not yet",
+          "2": "Not yet",
+          "3": "Not yet",
+          "4": "Not yet",
+          "5": "Not yet",
+          "6": "Not yet",
+          "7": "Not yet",
+          "8": "Not yet"
+        }
+      }
+    }
+  },
+  "fr": {
+    "title": "Cours",
+    "desc": "Mes cours à l'université",
+    "tabBtnTitle": "Afficher les onglets {0}",
+    "closeBtnTitle": "Fermer l'onglet",
+    "closeBtnAlt": "Fermer",
+    "L1": {
+      "h2": "Licence 1",
+      "S1": {
+        "h3": "Semestre 1",
+        "courses": {
+          "1": "Méthodologie de la Programmation",
+          "2": "Programmation Fonctionnelle",
+          "3": "Architecture des Ordinateurs",
+          "4": "Introduction aux Moteurs de Jeux",
+          "5": "Informatique Fondamentale",
+          "6": "Gestion d'Identité en Ligne",
+          "7": "Pratique des Machines",
+          "8": "VIDE"
+        }
+      },
+      "S2": {
+        "h3": "Semestre 2",
+        "courses": {
+          "1": "Programmation Impérative",
+          "2": "Programmation Logique",
+          "3": "Programmation Declarative & Base de Données",
+          "4": "Programmation dans les Moteurs de Jeux",
+          "5": "Création et Gestion de Ressources",
+          "6": "Outils Informatiques Collaboratifs",
+          "7": "Anglais Robotique",
+          "8": "EC Libre"
+        }
+      }
+    },
+    "L2": {
+      "h2": "Licence 2",
+      "S3": {
+        "h3": "Semestre 3",
+        "courses": {
+          "1": "Algorithmique & Structures de Données 1",
+          "2": "Programmation Avancée",
+          "3": "Programmation Interfaces",
+          "4": "Algorithmes pour la Programmation Graphique",
+          "5": "Introduction à l'Intelligence Artificielle",
+          "6": "Préparation au Projet Professionnel",
+          "7": "Anglais - Intelligence Artificielle",
+          "8": "VIDE"
+        }
+      },
+      "S4": {
+        "h3": "Semestre 4",
+        "courses": {
+          "1": "Algorithmique & Structures de Données 2",
+          "2": "Programmation Orientée Objet",
+          "3": "Systèmes & Réseaux",
+          "4": "Programmation concurrent & Réseaux",
+          "5": "Développement Web & Base de Données",
+          "6": "Synthèse d'Images, Animation & Sons",
+          "7": "Histoire de l'Informatique",
+          "8": "Restitution Orale de Connaissances"
+        }
+      }
+    },
+    "L3": {
+      "h2": "Licence 3",
+      "S5": {
+        "h3": "Semestre 5",
+        "courses": {
+          "1": "Algorithmique Avancée",
+          "2": "Interprétation & Compilation",
+          "3": "Introduction à la Sécurité",
+          "4": "Moteurs de Jeu",
+          "5": "Développement Mobile",
+          "6": "Projet Tuteuré : état de l'Art",
+          "7": "Objectif Master",
+          "8": "Anglais - Intelligence Artificelle"
+        }
+      },
+      "S6": {
+        "h3": "Semestre 6",
+        "courses": {
+          "1": "Intelligence Artificielle & Apprentissage",
+          "2": "Ingénierie des Langues",
+          "3": "Développement de Logiciels Libres",
+          "4": "Programmation de Cartes Graphiques",
+          "5": "Intelligence Artificielle pour les Jeux",
+          "6": "Projet Tuteuré : Implémentation",
+          "7": "Droit, éthique, informatique",
+          "8": "Anglais - Intelligence Artificelle"
+        }
+      }
+    },
+    "M1": {
+      "h2": "Master 1",
+      "S1": {
+        "h3": "Semestre 1",
+        "courses": {
+          "1": "Pas encore",
+          "2": "Pas encore",
+          "3": "Pas encore",
+          "4": "Pas encore",
+          "5": "Pas encore",
+          "6": "Pas encore",
+          "7": "Pas encore",
+          "8": "Pas encore"
+        }
+      },
+      "S2": {
+        "h3": "Semestre 2",
+        "courses": {
+          "1": "Pas encore",
+          "2": "Pas encore",
+          "3": "Pas encore",
+          "4": "Pas encore",
+          "5": "Pas encore",
+          "6": "Pas encore",
+          "7": "Pas encore",
+          "8": "Pas encore"
+        }
+      }
+    },
+    "M2": {
+      "h2": "Master 2",
+      "S1": {
+        "h3": "Semestre 3",
+        "courses": {
+          "1": "Pas encore",
+          "2": "Pas encore",
+          "3": "Pas encore",
+          "4": "Pas encore",
+          "5": "Pas encore",
+          "6": "Pas encore",
+          "7": "Pas encore",
+          "8": "Pas encore"
+        }
+      },
+      "S2": {
+        "h3": "Semestre 4",
+        "courses": {
+          "1": "Pas encore",
+          "2": "Pas encore",
+          "3": "Pas encore",
+          "4": "Pas encore",
+          "5": "Pas encore",
+          "6": "Pas encore",
+          "7": "Pas encore",
+          "8": "Pas encore"
+        }
+      }
+    }
+  }
 }
