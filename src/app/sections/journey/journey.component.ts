@@ -42,6 +42,7 @@ export class JourneyComponent {
   isEducationOpen = false;
   isEducationVisible = false;
   isEducationClosing = false;
+  openSemesters = new Set<string>();
   private closeTimer: ReturnType<typeof setTimeout> | null = null;
 
   @ViewChild('educationDrawer') educationDrawer?: ElementRef<HTMLElement>;
@@ -142,6 +143,18 @@ export class JourneyComponent {
     }
 
     this.openEducation();
+  }
+
+  toggleSemester(id: string): void {
+    if (this.openSemesters.has(id)) {
+      this.openSemesters.delete(id);
+      return;
+    }
+    this.openSemesters.add(id);
+  }
+
+  isSemesterOpen(id: string): boolean {
+    return this.openSemesters.has(id);
   }
 
   private scrollToEducationIfMobile(): void {

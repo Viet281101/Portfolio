@@ -25,6 +25,20 @@
           },
           "configurations": {
             "production": {
+              "optimization": {
+                "scripts": true,
+                "styles": {
+                  "minify": true,
+                  "inlineCritical": true,
+                  "removeSpecialComments": true
+                },
+                "fonts": {
+                  "inline": true
+                }
+              },
+              "sourceMap": false,
+              "extractLicenses": true,
+              "namedChunks": false,
               "budgets": [
                 {
                   "type": "initial",

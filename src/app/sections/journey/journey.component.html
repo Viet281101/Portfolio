@@ -65,29 +65,34 @@
             Click the Education items on the timeline to open this panel.
           </p>
         </div>
-        <button class="drawer-close" type="button" (click)="closeEducation()">
-          Close
-        </button>
+        <button class="drawer-close" type="button" (click)="closeEducation()">Close</button>
       </div>
       <div class="drawer-body">
-        <div class="education-level" *ngFor="let level of education">
+        <div class="education-level" *ngFor="let level of education; let levelIndex = index">
           <h4>{{ level.title }}</h4>
-          <details class="semester" *ngFor="let semester of level.semesters">
-            <summary class="semester-title">
+          <div class="semester" *ngFor="let semester of level.semesters; let semesterIndex = index">
+            <button
+              class="semester-title"
+              type="button"
+              (click)="toggleSemester(levelIndex + '-' + semesterIndex)"
+              [attr.aria-expanded]="isSemesterOpen(levelIndex + '-' + semesterIndex)"
+            >
               <span>{{ semester.title }}</span>
               <span class="semester-count">{{ semester.count }} courses</span>
-            </summary>
-            <div class="course-grid">
-              <div class="course" *ngFor="let course of semester.courses">
-                <div class="course-title">{{ course.title }}</div>
-                <div class="course-meta" *ngIf="course.duration || course.credits">
-                  <span *ngIf="course.duration">{{ course.duration }}</span>
-                  <span *ngIf="course.credits">{{ course.credits }} credits</span>
+            </button>
+            <div class="semester-body" [class.is-open]="isSemesterOpen(levelIndex + '-' + semesterIndex)">
+              <div class="course-grid">
+                <div class="course" *ngFor="let course of semester.courses">
+                  <div class="course-title">{{ course.title }}</div>
+                  <div class="course-meta" *ngIf="course.duration || course.credits">
+                    <span *ngIf="course.duration">{{ course.duration }}</span>
+                    <span *ngIf="course.credits">{{ course.credits }} credits</span>
+                  </div>
+                  <p *ngIf="course.description">{{ course.description }}</p>
                 </div>
-                <p *ngIf="course.description">{{ course.description }}</p>
               </div>
             </div>
-          </details>
+          </div>
         </div>
       </div>
     </div>
